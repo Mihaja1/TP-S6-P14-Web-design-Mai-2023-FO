@@ -1,0 +1,6 @@
+com/project/iacontentfrontoffice/model/Categorie.class
+com/project/iacontentfrontoffice/utils/Utils.class
+com/project/iacontentfrontoffice/controller/ContenuController.class
+com/project/iacontentfrontoffice/dao/HibernateDao.class
+com/project/iacontentfrontoffice/model/Admin.class
+com/project/iacontentfrontoffice/model/Contenu.class
