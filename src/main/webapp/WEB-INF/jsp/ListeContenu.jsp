@@ -84,14 +84,6 @@
                 </ol>
                 <h6 class="text-white font-weight-bolder ms-2">Intélligence artificielle</h6>
             </nav>
-            <div class="collapse navbar-collapse me-md-0 me-sm-4 mt-sm-0 mt-2" id="navbar">
-                <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-                    <div class="input-group">
-                        <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" placeholder="Type here...">
-                    </div>
-                </div>
-            </div>
         </div>
     </nav>
     <!-- End Navbar -->
@@ -122,7 +114,7 @@
                                 <p class="mb-1 pt-2 text-bold"><%= contenu.getCategorie().getDesignation() %></p>
                                 <h5 class="font-weight-bolder"><%= contenu.getTitre() %></h5>
                                 <p>Auteur: <%= contenu.getAdmin().getNom() %></p>
-                                <p>Publié le: <fmt:formatDate type="both" timeStyle="short" value="<%= contenu.getDateAjout() %>" /></p>
+                                <p>Mis à jour le: <fmt:formatDate type="both" timeStyle="short" value="<%= contenu.getDateAjout() %>" /></p>
                                 <a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="<%= request.getContextPath() %>/intelligence-artificielle/contenu/<%= contenu.getUrl() %>/<%= contenu.getId() %>">
                                     En savoir plus
                                     <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>

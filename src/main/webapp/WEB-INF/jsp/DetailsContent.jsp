@@ -84,14 +84,6 @@
         </ol>
         <h6 class="font-weight-bolder mb-0">Intélligence artificielle</h6>
       </nav>
-      <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
-        <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-          <div class="input-group">
-            <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
-            <input type="text" class="form-control" placeholder="Type here...">
-          </div>
-        </div>
-      </div>
     </div>
   </nav>
   <!-- End Navbar -->
@@ -105,7 +97,7 @@
           <div class="card-body px-4 pt-0 pb-0">
             <p><strong>Catégorie:</strong> <%= contenu.getCategorie().getDesignation() %></p>
             <p><strong>Auteur:</strong> <%= contenu.getAdmin().getNom() %></p>
-            <p><strong>Publié le:</strong> <fmt:formatDate type="both" timeStyle="short" value="<%= contenu.getDateAjout() %>" /></p>
+            <p><strong>Mis à jour le:</strong> <fmt:formatDate type="both" timeStyle="short" value="<%= contenu.getDateAjout() %>" /></p>
             <p><%= contenu.getContenu() %></p>
           </div>
         </div>
