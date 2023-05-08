@@ -1,6 +1,6 @@
-/home/mihaja/Documents/Gitlab/IAContent/IAContent-FO/src/main/java/com/project/iacontentfrontoffice/utils/Utils.java
-/home/mihaja/Documents/Gitlab/IAContent/IAContent-FO/src/main/java/com/project/iacontentfrontoffice/model/Admin.java
-/home/mihaja/Documents/Gitlab/IAContent/IAContent-FO/src/main/java/com/project/iacontentfrontoffice/controller/ContenuController.java
-/home/mihaja/Documents/Gitlab/IAContent/IAContent-FO/src/main/java/com/project/iacontentfrontoffice/dao/HibernateDao.java
-/home/mihaja/Documents/Gitlab/IAContent/IAContent-FO/src/main/java/com/project/iacontentfrontoffice/model/Categorie.java
-/home/mihaja/Documents/Gitlab/IAContent/IAContent-FO/src/main/java/com/project/iacontentfrontoffice/model/Contenu.java
+/home/mihaja/Documents/GitHub/IAContent/IAContent-FrontOffice/src/main/java/com/project/iacontentfrontoffice/utils/Utils.java
+/home/mihaja/Documents/GitHub/IAContent/IAContent-FrontOffice/src/main/java/com/project/iacontentfrontoffice/dao/HibernateDao.java
+/home/mihaja/Documents/GitHub/IAContent/IAContent-FrontOffice/src/main/java/com/project/iacontentfrontoffice/model/Contenu.java
+/home/mihaja/Documents/GitHub/IAContent/IAContent-FrontOffice/src/main/java/com/project/iacontentfrontoffice/model/Admin.java
+/home/mihaja/Documents/GitHub/IAContent/IAContent-FrontOffice/src/main/java/com/project/iacontentfrontoffice/controller/ContenuController.java
+/home/mihaja/Documents/GitHub/IAContent/IAContent-FrontOffice/src/main/java/com/project/iacontentfrontoffice/model/Categorie.java

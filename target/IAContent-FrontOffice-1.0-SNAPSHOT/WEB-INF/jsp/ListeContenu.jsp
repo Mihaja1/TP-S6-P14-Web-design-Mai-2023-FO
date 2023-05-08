@@ -17,6 +17,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Quelques intelligences artificielles">
     <link rel="apple-touch-icon" sizes="76x76" href="<%= request.getContextPath() %>/assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="<%= request.getContextPath() %>/assets/img/favicon.png">
     <title>
@@ -69,9 +70,6 @@
             </li>
         </ul>
     </div>
-    <div class="sidenav-footer mx-3 ">
-        <a class="btn bg-gradient-primary mt-4 w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard-pro?ref=sidebarfree" type="button">Upgrade to pro</a>
-    </div>
 </aside>
 <main class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ">
     <!-- Navbar -->
@@ -114,7 +112,7 @@
                                 <p class="mb-1 pt-2 text-bold"><%= contenu.getCategorie().getDesignation() %></p>
                                 <h5 class="font-weight-bolder"><%= contenu.getTitre() %></h5>
                                 <p>Auteur: <%= contenu.getAdmin().getNom() %></p>
-                                <p>Publié le: <fmt:formatDate type="both" timeStyle="short" value="<%= contenu.getDateAjout() %>" /></p>
+                                <p>Mis à jour le: <fmt:formatDate type="both" timeStyle="short" value="<%= contenu.getDateAjout() %>" /></p>
                                 <a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="<%= request.getContextPath() %>/intelligence-artificielle/contenu/<%= contenu.getUrl() %>/<%= contenu.getId() %>">
                                     En savoir plus
                                     <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>

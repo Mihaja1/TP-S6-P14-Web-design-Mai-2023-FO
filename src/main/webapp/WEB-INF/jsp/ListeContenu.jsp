@@ -17,6 +17,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Quelques intelligences artificielles">
     <link rel="apple-touch-icon" sizes="76x76" href="<%= request.getContextPath() %>/assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="<%= request.getContextPath() %>/assets/img/favicon.png">
     <title>
@@ -68,9 +69,6 @@
                 </a>
             </li>
         </ul>
-    </div>
-    <div class="sidenav-footer mx-3 ">
-        <a class="btn bg-gradient-primary mt-4 w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard-pro?ref=sidebarfree" type="button">Upgrade to pro</a>
     </div>
 </aside>
 <main class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ">
